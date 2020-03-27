@@ -8,7 +8,7 @@ This package compiles and puts all of the required python packages into a single
 Put root directory of your project that you are installing in the config.ini file in the
 line src_dir eg.
 
-*config.ini*
+*config.yaml*
 ```
 src_dir: "/home/<username>/projects/src"
 ```

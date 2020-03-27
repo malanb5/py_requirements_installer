@@ -1,22 +1,26 @@
 #!/usr/bin/env python3
-import yaml
-from Parser import Parser
+import argparse
+from pyreqgen.ReqParser import ReqParser
 
 def main():
-	with open("config.yaml", 'r+') as config_f:
-		configs = yaml.load(config_f, Loader=yaml.FullLoader)
-		print(configs)
 
-	py_files = Parser.get_py_files(configs)
-	reqs = Parser.get_reqs(py_files, py_included=configs["python_included"])
+	parser = argparse.ArgumentParser(description='Takes a source directory compiles and puts all of the required python packages '
+												 'into a single requirements.txt file')
+	parser.add_argument('--src_dir', type=str,
+						help='the root project directory')
+
+	args = parser.parse_args()
+	print(args.src_dir)
+	reqs = ReqParser.run(args.src_dir)
 
 	reqs = list(reqs)
 	reqs.sort()
 
+	# TODO: write to the folder of your choosing
 	with open("requirements.txt", 'w+') as req_f:
 		req_f.write('\n'.join(reqs))
 
-	print("Done.")
+	# print("Done.")
 
 if __name__== "__main__":
 	main()

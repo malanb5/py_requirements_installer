@@ -2,12 +2,8 @@ bayesian-optimization
 catboost
 category_encoders
 lightgbm
-matplotlib
 numba
-numpy
-pandas
 seaborn
 sklearn
 tqdm
-typing
 xgboost

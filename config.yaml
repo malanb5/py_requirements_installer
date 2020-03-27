@@ -1,14 +1,2 @@
 # The file path on which to install the required modules
 src_dir: "tests/src"
-
-# the python packages native and do not need
-# to be installed
-python_included:
-  - "collections"
-  - "warnings"
-  - "itertools"
-  - "IPython"
-  - "os"
-  - "re"
-  - "time"
-  - "copy"

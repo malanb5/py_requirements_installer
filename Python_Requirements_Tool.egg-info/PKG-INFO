@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: Python-Requirements-Tool
+Version: 1.0
+Summary: Creates a requirements.txt file for a project solely from source files, given a root directory
+Home-page: https://github.com/malanb5/py_requirements_installer
+Author: Matthew Bladek
+Author-email: malanb5@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
