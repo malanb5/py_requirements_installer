@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="839bcc8f-8bb0-4e28-b1ba-9d186207432a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyreqgen/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyreqgen/ReqParser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyreqgen/ReqParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyreqgen/ReqParser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/parser_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/parser_test.py" afterDir="false" />
     </list>
@@ -148,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585330655185</updated>
-      <workItem from="1585330661706" duration="18254000" />
+      <workItem from="1585330661706" duration="18940000" />
     </task>
     <servers />
   </component>
@@ -176,22 +173,22 @@
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
     <state x="3698" y="-62" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585347833154" />
-    <state width="1158" height="313" key="GridCell.Tab.0.bottom" timestamp="1585350461770">
+    <state width="1158" height="222" key="GridCell.Tab.0.bottom" timestamp="1585351170314">
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
-    <state width="1158" height="313" key="GridCell.Tab.0.bottom/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585350461770" />
-    <state width="1158" height="313" key="GridCell.Tab.0.center" timestamp="1585350461769">
+    <state width="1158" height="222" key="GridCell.Tab.0.bottom/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585351170314" />
+    <state width="1158" height="222" key="GridCell.Tab.0.center" timestamp="1585351170312">
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
-    <state width="1158" height="313" key="GridCell.Tab.0.center/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585350461769" />
-    <state width="1158" height="313" key="GridCell.Tab.0.left" timestamp="1585350461768">
+    <state width="1158" height="222" key="GridCell.Tab.0.center/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585351170312" />
+    <state width="1158" height="222" key="GridCell.Tab.0.left" timestamp="1585351170312">
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
-    <state width="1158" height="313" key="GridCell.Tab.0.left/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585350461768" />
-    <state width="1158" height="313" key="GridCell.Tab.0.right" timestamp="1585350461770">
+    <state width="1158" height="222" key="GridCell.Tab.0.left/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585351170312" />
+    <state width="1158" height="222" key="GridCell.Tab.0.right" timestamp="1585351170313">
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
-    <state width="1158" height="313" key="GridCell.Tab.0.right/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585350461770" />
+    <state width="1158" height="222" key="GridCell.Tab.0.right/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585351170313" />
     <state width="1158" height="650" key="GridCell.Tab.1.bottom" timestamp="1585350407210">
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
@@ -241,7 +238,7 @@
     <SUITE FILE_PATH="coverage/py_requirements$cfg_parser.coverage" NAME="cfg_parser Coverage Results" MODIFIED="1585333871267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_requirements$Unittests_for_parser_test_TestParser_test_files.coverage" NAME="Unittests for parser_test.TestParser.test_files Coverage Results" MODIFIED="1585343495963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/py_requirements$ReqParser__1_.coverage" NAME="ReqParser (1) Coverage Results" MODIFIED="1585350318821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyreqgen" />
-    <SUITE FILE_PATH="coverage/py_requirements$main.coverage" NAME="main Coverage Results" MODIFIED="1585350461760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py_requirements$main.coverage" NAME="main Coverage Results" MODIFIED="1585351163638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_requirements$Unittests_for_parser_test_ParserTests_ParserTest.coverage" NAME="Unittests for parser_test.ParserTests.ParserTest Coverage Results" MODIFIED="1585341009062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/py_requirements$Unittests_for_parser_test_ParserTest.coverage" NAME="Unittests for parser_test.ParserTest Coverage Results" MODIFIED="1585341026534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/py_requirements$Unittests_for_parser_test_TestParser.coverage" NAME="Unittests for parser_test.TestParser Coverage Results" MODIFIED="1585341417794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />

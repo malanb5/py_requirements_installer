@@ -3,23 +3,24 @@
 This package compiles and puts all of the required python packages into a single requirements.txt file.
 
 ## Quick Start
-
 #### Usage
-Put root directory of your project that you are installing in the config.ini file in the
-line src_dir eg.
+ReqParser is a module which contains static functions for generating the requirements.txt from
+python source code.
 
-*config.yaml*
 ```
-src_dir: "/home/<username>/projects/src"
-```
+from pyreqgen import ReqParser
 
-Run the command 
-```
-python main.py
-```
+root_dir_of_project = "/location/to/project"
 
-This will generate the requirements.txt file in the specified directory.
-If nothing is set this will default to the root of the project directory.
+ReqParser.run(root_dir_of_project, write_o=True, alpha=True)
+```
+## ReqParser
+The run method is the main entry point to generate the requirements.txt.
+It takes a mandatory argument the location of the root directory of the project as a string.
+Optional arguments arguments are if you want to write out the required modules to a requirements.txt
+in the function.  If not then it will return with a set of strings the module names.
+
+The alpha option is set True if you want the modules sorted alphanumerically.
 
 
 ### Contributing

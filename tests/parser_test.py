@@ -9,8 +9,8 @@ class TestParser(unittest.TestCase):
 			configs = yaml.load(config_f, Loader=yaml.FullLoader)
 			print(configs)
 
-		py_files = ReqParser.get_py_files(configs)
-		reqs = ReqParser.get_reqs(py_files)
+		py_files = ReqParser.__get_py_files(configs)
+		reqs = ReqParser.__get_reqs(py_files)
 
 		with open("requirements.txt", 'w+') as req_f:
 			req_f.write('\n'.join(reqs))

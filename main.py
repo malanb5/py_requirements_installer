@@ -11,14 +11,7 @@ def main():
 
 	args = parser.parse_args()
 	print(args.src_dir)
-	reqs = ReqParser.run(args.src_dir)
-
-	reqs = list(reqs)
-	reqs.sort()
-
-	# TODO: write to the folder of your choosing
-	with open("requirements.txt", 'w+') as req_f:
-		req_f.write('\n'.join(reqs))
+	ReqParser.run(args.src_dir, write_o=True, alpha=True)
 
 	# print("Done.")
 

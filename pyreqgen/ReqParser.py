@@ -14,7 +14,7 @@ class ReqParser(object):
 		return file_s.endswith("py")
 
 	@staticmethod
-	def get_py_files(src_dir_s : str):
+	def __get_py_files(src_dir_s : str):
 		if type(src_dir_s) is str:
 			src_dir_d = os.walk(src_dir_s)
 			file_set = set()
@@ -27,7 +27,7 @@ class ReqParser(object):
 		return file_set
 
 	@staticmethod
-	def parse_package(p_l):
+	def __parse_package(p_l):
 		if len(p_l) == 1:
 			return None
 
@@ -44,7 +44,7 @@ class ReqParser(object):
 		return p_l
 
 	@staticmethod
-	def parse_line(l):
+	def __parse_line(l):
 		"""
 		parses a line of text for the package to install
 		"""
@@ -53,33 +53,48 @@ class ReqParser(object):
 		if len(s_l) < 2:
 			return None
 		if any(x in s_l[0] for x in ("from", "import")):
-			return ReqParser.parse_package(s_l[1])
+			return ReqParser.__parse_package(s_l[1])
 		else:
 			return None
 
 	@staticmethod
-	def parse_file(f_s, reqs):
+	def __parse_file(f_s, reqs):
 
 		with open(f_s, "r+") as f:
 			lines = f.readlines()
 			for l in lines:
-				req = ReqParser.parse_line(l)
+				req = ReqParser.__parse_line(l)
 				if req is not None:
 					reqs.add(req)
 		return reqs
 
 	@staticmethod
-	def get_reqs(py_files):
+	def __get_reqs(py_files):
 		reqs = set()
 
 		while (len(py_files) > 0):
 			f = py_files.pop()
-			reqs = ReqParser.parse_file(f, reqs)
+			reqs = ReqParser.__parse_file(f, reqs)
 
 		return reqs
 
 	@staticmethod
-	def run(src_dir_s):
-		py_files = ReqParser.get_py_files(src_dir_s)
-		reqs = ReqParser.get_reqs(py_files)
-		return reqs
+	def run(src_dir_s, write_o=False, alpha=False):
+		py_files = ReqParser.__get_py_files(src_dir_s)
+		reqs = ReqParser.__get_reqs(py_files)
+		if write_o:
+			ReqParser.write(reqs, alpha)
+		else:
+			return reqs
+
+	@staticmethod
+	def write(req_set, alpha=False):
+		reqs = list(req_set)
+
+		# soft if the option is set
+		if alpha:
+			reqs.sort()
+
+		# TODO: write to the folder of your choosing
+		with open("requirements.txt", 'w+') as req_f:
+			req_f.write('\n'.join(reqs))
