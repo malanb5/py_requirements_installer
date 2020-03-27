@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="839bcc8f-8bb0-4e28-b1ba-9d186207432a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inner/example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inner/example1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/parser_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/src/example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/src/example1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inner/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/src/inner/example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inner/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/src/inner/example1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,32 +49,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="Errors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_requirements" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Errors.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for parser_test.TestParser.test_files">
     <configuration name="cfg_parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_requirements" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,11 +98,66 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for parser_test.TestParser" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="py_requirements" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;parser_test.TestParser&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for parser_test.TestParser.test_files" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="py_requirements" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;parser_test.TestParser.test_files&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in parser_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="py_requirements" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/ai_env/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/parser_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.cfg_parser" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python tests.Unittests in parser_test.py" />
+      <item itemvalue="Python tests.Unittests for parser_test.TestParser" />
+      <item itemvalue="Python tests.Unittests for parser_test.TestParser.test_files" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for parser_test.TestParser.test_files" />
+        <item itemvalue="Python tests.Unittests in parser_test.py" />
+        <item itemvalue="Python tests.Unittests for parser_test.TestParser" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.cfg_parser" />
-        <item itemvalue="Python.Errors" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585330655185</updated>
-      <workItem from="1585330661706" duration="8849000" />
+      <workItem from="1585330661706" duration="11056000" />
     </task>
     <servers />
   </component>
@@ -146,26 +179,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="3424" y="-154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585341313898">
+      <screen x="3360" y="-776" width="1200" height="1920" />
+    </state>
+    <state x="3424" y="-154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585341313898" />
+    <state x="2221" y="0" width="1000" height="1080" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585343169625">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2221" y="0" width="1000" height="1080" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585343169625" />
     <state x="3698" y="-62" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585334955339">
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
     <state x="3698" y="-62" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585334955339" />
-    <state width="1158" height="547" key="GridCell.Tab.0.bottom" timestamp="1585340134077">
+    <state width="1158" height="547" key="GridCell.Tab.0.bottom" timestamp="1585343193304">
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
-    <state width="1158" height="547" key="GridCell.Tab.0.bottom/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585340134077" />
-    <state width="1158" height="547" key="GridCell.Tab.0.center" timestamp="1585340134076">
+    <state width="1158" height="547" key="GridCell.Tab.0.bottom/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585343193304" />
+    <state width="1158" height="547" key="GridCell.Tab.0.center" timestamp="1585343193303">
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
-    <state width="1158" height="547" key="GridCell.Tab.0.center/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585340134076" />
-    <state width="1158" height="547" key="GridCell.Tab.0.left" timestamp="1585340134075">
+    <state width="1158" height="547" key="GridCell.Tab.0.center/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585343193303" />
+    <state width="1158" height="547" key="GridCell.Tab.0.left" timestamp="1585343193302">
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
-    <state width="1158" height="547" key="GridCell.Tab.0.left/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585340134075" />
-    <state width="1158" height="547" key="GridCell.Tab.0.right" timestamp="1585340134076">
+    <state width="1158" height="547" key="GridCell.Tab.0.left/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585343193302" />
+    <state width="1158" height="547" key="GridCell.Tab.0.right" timestamp="1585343193303">
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
-    <state width="1158" height="547" key="GridCell.Tab.0.right/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585340134076" />
+    <state width="1158" height="547" key="GridCell.Tab.0.right/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585343193303" />
     <state width="1158" height="289" key="GridCell.Tab.1.bottom" timestamp="1585340038226">
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
@@ -186,10 +227,10 @@
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
     <state x="3569" y="-91" width="782" height="550" key="find.popup/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585340133020" />
-    <state x="3625" y="-325" width="670" height="676" key="search.everywhere.popup" timestamp="1585336820888">
+    <state x="3625" y="-325" width="670" height="676" key="search.everywhere.popup" timestamp="1585343116372">
       <screen x="3360" y="-776" width="1200" height="1920" />
     </state>
-    <state x="3625" y="-325" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585336820888" />
+    <state x="3625" y="-325" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/3360.-776.1200.1920/1440.0.1920.1080@3360.-776.1200.1920" timestamp="1585343116372" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -203,8 +244,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/py_requirements$Unittests_in_parser_test_py.coverage" NAME="Unittests in parser_test.py Coverage Results" MODIFIED="1585342607000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/py_requirements$Errors.coverage" NAME="Errors Coverage Results" MODIFIED="1585333825625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_requirements$cfg_parser.coverage" NAME="cfg_parser Coverage Results" MODIFIED="1585333871267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py_requirements$Unittests_for_parser_test_TestParser_test_files.coverage" NAME="Unittests for parser_test.TestParser.test_files Coverage Results" MODIFIED="1585343193291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/py_requirements$main.coverage" NAME="main Coverage Results" MODIFIED="1585340134067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py_requirements$Unittests_for_parser_test_ParserTests_ParserTest.coverage" NAME="Unittests for parser_test.ParserTests.ParserTest Coverage Results" MODIFIED="1585341009062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/py_requirements$Unittests_for_parser_test_ParserTest.coverage" NAME="Unittests for parser_test.ParserTest Coverage Results" MODIFIED="1585341026534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/py_requirements$Unittests_for_parser_test_TestParser.coverage" NAME="Unittests for parser_test.TestParser Coverage Results" MODIFIED="1585341417794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

@@ -12,7 +12,8 @@ line src_dir eg.
 *config.ini*
 ```
 src_dir: "/home/\<username>\/projects/src"
-```
+```"
+
 Run the command 
 ```
 python main.py
