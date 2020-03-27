@@ -1,7 +1,6 @@
-# Python Requirements Installer
+# Python Requirements Tool
 
-This package compiles and puts all of the required python packages into a single requirements.txt file for installation 
-in your environment.
+This package compiles and puts all of the required python packages into a single requirements.txt file.
 
 ## Quick Start
 
@@ -11,8 +10,8 @@ line src_dir eg.
 
 *config.ini*
 ```
-src_dir: "/home/\<username>\/projects/src"
-```"
+src_dir: "/home/<username>/projects/src"
+```
 
 Run the command 
 ```

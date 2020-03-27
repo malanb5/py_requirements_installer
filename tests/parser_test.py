@@ -5,7 +5,7 @@ class TestParser(unittest.TestCase):
 
 	def test_files(self):
 
-		with open("../config.ini", 'r+') as config_f:
+		with open("../config.yaml", 'r+') as config_f:
 			configs = yaml.load(config_f, Loader=yaml.FullLoader)
 			print(configs)
 

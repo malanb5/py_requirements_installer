@@ -3,12 +3,15 @@ import yaml
 from Parser import Parser
 
 def main():
-	with open("config.ini", 'r+') as config_f:
+	with open("config.yaml", 'r+') as config_f:
 		configs = yaml.load(config_f, Loader=yaml.FullLoader)
 		print(configs)
 
 	py_files = Parser.get_py_files(configs)
-	reqs = Parser.get_reqs(py_files)
+	reqs = Parser.get_reqs(py_files, py_included=configs["python_included"])
+
+	reqs = list(reqs)
+	reqs.sort()
 
 	with open("requirements.txt", 'w+') as req_f:
 		req_f.write('\n'.join(reqs))
